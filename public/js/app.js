@@ -29,7 +29,7 @@ $( "#registrationForm" ).submit(function(e) {
 
         //if registration is success
         if(data.success) {
-            $('#registrationForm').fadeOut(function(){
+            $('#registrationContainer').fadeOut(function(){
                 var successContent = '<div class="alert alert-success">' +
                     '<h3>Registration Completed Successfully</h3>' +
                     '<h4>You Can Login here <a href="#">Login</a> </div>';
